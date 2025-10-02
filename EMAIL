@@ -1,0 +1,11 @@
+driver.find_element(By.ID, "name").send_keys("John Doe")
+driver.find_element(By.ID, "inputEmail4").send_keys("john.doe@example.com")
+driver.find_element(By.ID, "inputPassword4").send_keys("password123")
+driver.find_element(By.ID, "company").send_keys("LambdaTest")
+driver.find_element(By.ID, "websitename").send_keys("https://www.example.com")
+# ... fill address, city, state, zip ...
+driver.find_element(By.ID, "inputAddress1").send_keys("123 Main St")
+driver.find_element(By.ID, "inputAddress2").send_keys("Apt 4B")
+driver.find_element(By.ID, "inputCity").send_keys("New York")
+driver.find_element(By.ID, "inputState").send_keys("New York")
+driver.find_element(By.ID, "inputZip").send_keys("10001")
