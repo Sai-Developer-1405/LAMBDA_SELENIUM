@@ -1,0 +1,3 @@
+from selenium.webdriver.support.ui import Select
+country_dropdown = Select(driver.find_element(By.ID, "country"))
+country_dropdown.select_by_visible_text("United States")
